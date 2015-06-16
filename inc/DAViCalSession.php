@@ -184,6 +184,14 @@ class DAViCalSession extends Session
     include('page-footer.php');
     @ob_flush(); exit(0);
   }
+
+  /*
+   * Override RenderLoginPanel to have customized login panels.
+  */
+  function RenderLoginPanel()
+  {
+    return parent::RenderLoginPanel();
+  }
 }
 
 $session = new DAViCalSession();
