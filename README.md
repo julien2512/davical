@@ -4,7 +4,7 @@ DAViCal CalDAV Server by Andrew McMillan
 Please Note
 ===
 
-The official DAViCal repository is now on
+The [official DAViCal repository](https://gitlab.com/davical-project/davical) is now on
 [GitLab](https://gitlab.com). Please use that repository as this
 GitHub repository will gradually stagnate. Please post issues and pull
 requests there as well. The repository is at:
